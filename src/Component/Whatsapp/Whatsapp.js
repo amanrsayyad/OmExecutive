@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Whatsapp = () => {
     return (
         <div className="whatsapp_main">
-            <a href="https://wa.me/" target="_blank">
+            <a href="https://wa.me/919325423557" target="_blank">
             <img src={whatsapp3} alt="" />
             </a>
         </div>
