@@ -171,7 +171,7 @@ const Roomdetail = () => {
                         <p class="about__feature animate-about">
                             Parking :- Free private parking is possible on site (reservation is not needed).</p>
                         <div className="book_btn">
-                            <a href="https://wa.me/" target="_blank">Check Enquiry</a>
+                            <a href="https://wa.me/919325423557" target="_blank">Check Enquiry</a>
                         </div>
                     </div>
                 </div>
