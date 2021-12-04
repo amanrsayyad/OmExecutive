@@ -145,9 +145,11 @@
 	}
 	.header__icons > ul > a {
 		text-align: center;
-		padding: 2rem;
+		padding: 1rem;
 		width: 100%;
-		display: table;
+		display: flex;
+		align-items: center;
+		justify-content: left;
 		font-size: 25px;
 		color: #E47615;
 	}
