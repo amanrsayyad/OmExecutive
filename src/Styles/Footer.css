@@ -39,7 +39,7 @@
 @media screen and (max-width: 750px){
     .footer{
         grid-template-columns: 1fr 1fr;
-        height: 55vh;
+        height: 65vh;
         padding: 10px;
     }
     .footerLinks{
