@@ -1,13 +1,13 @@
 import React from 'react';
 import './Whatsapp.css';
-import whatsapp3 from '../../Assets/icons/whatsapp3.png';
+import wa from '../../Assets/icons/wa.png';
 import { Link } from 'react-router-dom';
 
 const Whatsapp = () => {
     return (
         <div className="whatsapp_main">
             <a href="https://wa.me/919325423557" target="_blank">
-            <img src={whatsapp3} alt="" />
+            <img src={wa} alt="" />
             </a>
         </div>
     )

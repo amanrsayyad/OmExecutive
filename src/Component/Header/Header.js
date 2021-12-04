@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Dropdown from 'react-bootstrap/Dropdown';
 import './Header.css';
 import logo2 from '../../Assets/icons/logo2.png';
 
@@ -10,11 +11,11 @@ const Header = () => {
     const handleClick = () => setClick(!click);
 
     const closeMobileMenu = () => setClick(false);
-    
+
     return (
         <div className='header'>
             <div className='header__left'>
-            {/* <img src={logo2} alt="" className="header_logo"/> */}
+                {/* <img src={logo2} alt="" className="header_logo"/> */}
                 <Link to='/'>
                     Om Executive
                 </Link>
@@ -28,16 +29,16 @@ const Header = () => {
                         <Link to='/Gallery' onClick={closeMobileMenu}>
                             Gallery
                         </Link>
-                        <Link to='/BookNow' onClick={closeMobileMenu}>
-                             Book Now
-                        </Link>
-                        <Link to='/Contactus' onClick={closeMobileMenu}>
-                           Contact Us
+                        <Link to='/BookNow' >
+                           Book Now
                         </Link>
                         <Link to='/Tourism' onClick={closeMobileMenu}>
                             Tourism
                         </Link>
-                       
+                        <Link to='/Contactus' onClick={closeMobileMenu}>
+                            Contact Us
+                        </Link>
+
                     </ul>
                     <div className='menu_icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
