@@ -38,7 +38,7 @@
 .btn_contact{
     width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: rgb(0, 0, 51);;
+	background-color: #E47615;
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
@@ -48,7 +48,7 @@
 }
 .field{
 	width: 100%;
-	border: 2px solid rgb(215, 215, 246);;
+	border: 2px solid #E47615;;
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
