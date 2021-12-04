@@ -79,7 +79,7 @@
         grid-template-columns: 1fr;
     }
     .contact_card iframe{
-        width: 350px;
+        width: 300px;
         height: 250px;
     }
 }
