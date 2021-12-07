@@ -1,8 +1,8 @@
 import React from 'react';
 import Caro from '../Component/Caro/Caro';
-import Contactus from './Contactus';
 import Gallery from './Gallery';
 import Review from '../Component/Review/Review';
+import Account from '../Component/Account/Account';
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             <Caro />
             <Gallery />
             <Review />
-            <Contactus />
+            <Account />
         </div>
     )
 }

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Dropdown from 'react-bootstrap/Dropdown';
 import './Header.css';
-import logo2 from '../../Assets/icons/logo2.png';
 
 
 const Header = () => {
@@ -11,6 +9,8 @@ const Header = () => {
     const handleClick = () => setClick(!click);
 
     const closeMobileMenu = () => setClick(false);
+
+     
 
     return (
         <div className='header'>
@@ -29,13 +29,13 @@ const Header = () => {
                         <Link to='/Gallery' onClick={closeMobileMenu}>
                             Gallery
                         </Link>
-                        <Link to='/BookNow' >
-                           Book Now
+                        <Link to='/BookNow' onClick={closeMobileMenu}>
+                             Book Now
                         </Link>
                         <Link to='/Tourism' onClick={closeMobileMenu}>
                             Tourism
                         </Link>
-                        <Link to='/Contactus' onClick={closeMobileMenu}>
+                        <Link to='/Account' onClick={closeMobileMenu}>
                             Contact Us
                         </Link>
 
