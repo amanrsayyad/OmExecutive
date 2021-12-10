@@ -39,7 +39,7 @@
 	align-items: center;
 }
 .header__icons{
-	margin-left: 5px;
+	margin-left: 0px;
 	display: flex;
 	align-items: center;
 }
@@ -80,33 +80,32 @@
 .menu_icon{
 	display: none;
 }
-.g-auth{
-	display: inline-block;
-	margin: 5px;
-	padding: 5px;
-	cursor: pointer;
-	align-items: center;
-	width: 80px;
-	background-color: rgb(82, 82, 207);
-	text-align: center;
-}
-.g-user{
+.dropdown{
+	background-color: orangered;
 	display: inline-block;
 }
-.g-userName{
-	display: inline-block;
+.btn_menu{
+    background: #E47615;
+}
+.drop_link{
+	text-decoration: none;
+	display: block;
+	justify-content: left;
 	color: #000;
-	font-weight: normal;
-	margin-left: 5px;
-	padding-right: 10px;
+	margin: 5px;
+	margin-bottom: 15px;
+	width: 350px;
 }
-.g-auth span{
-	  color: #fff;
+.drop_link:hover{
+	background-color: #E47615;
+	color: #fff;
+	padding: 5px;
 }
-.g-img{
-	width: 50px;
+@media screen and (max-width: 768px){
+	.drop_link{
+		width: 250px;
+	}
 }
-
 @media screen and (max-width: 960px) {
 	.nav-menu {
 		display: flex;

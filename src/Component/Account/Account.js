@@ -8,6 +8,7 @@ const Account = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const [number, setNumber ] = useState("")
 
     const [loader, setLoader] = useState(false);
 
@@ -20,6 +21,7 @@ const Account = () => {
                 name: name,
                 email: email,
                 message: message,
+                number: number,
             })
             .then(() => {
                 setLoader(false);
@@ -33,6 +35,7 @@ const Account = () => {
         setName("");
         setEmail("");
         setMessage("");
+        setNumber("");
     };
 
 
@@ -59,6 +62,13 @@ const Account = () => {
                         autoComplete="off" required
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+                    />
+                    <input
+                        className="number field"
+                        placeholder="Enter Your Mobile Number"
+                        autoComplete="off" required
+                        value={number}
+                        onChange={(e) => setNumber(e.target.value)}
                     />
                     <textarea
                         placeholder="Message"

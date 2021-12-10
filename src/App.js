@@ -11,6 +11,7 @@ import RoomDetail from './Pages/RoomDetail/RoomDetail';
 import Whatsapp from './Component/Whatsapp/Whatsapp';
 import Account from '../src/Component/Account/Account';
 import axios from 'axios';
+import Rooms from './Pages/Rooms';
 
 function App() {
    
@@ -25,6 +26,7 @@ function App() {
         <Route path='/Tourism' exact component={Tourism} />
         <Route path='/Gallery' exact component={Gallery} />
         <Route path='/BookNow' exact component={BookNow} />
+        <Route path='/Rooms' exact component={Rooms} />
         <Route path='/Account' exact component={Account} />
         <Route path='/RoomDetail' exact component={RoomDetail} />
         <Footer />

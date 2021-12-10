@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+
+
 
 
 const Header = () => {
@@ -9,8 +13,6 @@ const Header = () => {
     const handleClick = () => setClick(!click);
 
     const closeMobileMenu = () => setClick(false);
-
-     
 
     return (
         <div className='header'>
@@ -29,8 +31,18 @@ const Header = () => {
                         <Link to='/Gallery' onClick={closeMobileMenu}>
                             Gallery
                         </Link>
-                        <Link to='/BookNow' onClick={closeMobileMenu}>
-                             Book Now
+                        <Link to='/BookNow'>
+                            <Dropdown>
+                                <Dropdown.Toggle variant="success" className="btn_toggle btn-warning">
+                                    Book Now
+                                </Dropdown.Toggle>
+                                <Dropdown.Menu className='btn_menu'>
+                                <Link to='/Rooms' className="drop_link" onClick={closeMobileMenu}>Rooms</Link>
+                                <Link className="drop_link" onClick={closeMobileMenu}>Restaurant</Link>
+                                <Link className="drop_link" onClick={closeMobileMenu}>Multipurpose Hall</Link>
+                                <Link className="drop_link" onClick={closeMobileMenu}>Lawns</Link>
+                                </Dropdown.Menu>
+                            </Dropdown>
                         </Link>
                         <Link to='/Tourism' onClick={closeMobileMenu}>
                             Tourism
@@ -45,7 +57,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
