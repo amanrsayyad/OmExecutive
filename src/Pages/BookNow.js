@@ -11,13 +11,13 @@ import royalAc from '../Assets/room/royalAc.JPG';
 const BookNow = () => {
     return (
         <div>
-            <BookMain image={acClassic} roomName="Ac Classic" size="Size 19m2" bed="1 Large Double Bed" links="/Roomdetail"/>
+            <BookMain image={acClassic} roomName="Ac Classic" size="Size 19m2" bed="1 Large Double Bed"/>
             <BookMain image={executive} roomName="Executive" size="Size 21m2" bed="1 Large Double Bed" links="/Roomdetail"/>
             <BookMain image={executiveAc} roomName="Executive Ac" size="Size 21m2" bed="1 Large Double Bed" links="/Roomdetail"/>
             <BookMain image={family} roomName="Family" size="Size 33m2" bed="1 Large Double Bed" links="/Roomdetail"/>
-            <BookMain  image={premium} roomName="Premium" size="Size 27m2" bed="1 Large Double Bed" links="/Roomdetail"/>
-            <BookMain  image={premiumDelux} roomName="Premium Delux" size="Size 27m2" bed="1 Single Bed" links="/Roomdetail"/>
-            <BookMain  image={royalAc} roomName="Royal Ac" size="Size 27m2" bed="1 Single Bed" links="/Roomdetail"/>
+            <BookMain image={premium} roomName="Premium" size="Size 27m2" bed="1 Large Double Bed" links="/Roomdetail"/>
+            <BookMain image={premiumDelux} roomName="Premium Delux" size="Size 27m2" bed="1 Single Bed" links="/Roomdetail"/>
+            <BookMain image={royalAc} roomName="Royal Ac" size="Size 27m2" bed="1 Single Bed" links="/Roomdetail"/>
         </div>
     )
 }

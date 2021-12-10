@@ -12,6 +12,9 @@ import Whatsapp from './Component/Whatsapp/Whatsapp';
 import Account from '../src/Component/Account/Account';
 import axios from 'axios';
 import Rooms from './Pages/Rooms';
+import Resto from './Pages/Resto';
+import Hall from './Pages/Hall';
+import Lawn from './Pages/Lawn';
 
 function App() {
    
@@ -27,6 +30,9 @@ function App() {
         <Route path='/Gallery' exact component={Gallery} />
         <Route path='/BookNow' exact component={BookNow} />
         <Route path='/Rooms' exact component={Rooms} />
+        <Route path='/Resto' exact component={Resto} />
+        <Route path='/Hall' exact component={Hall} />
+        <Route path='/Lawn' exact component={Lawn} />
         <Route path='/Account' exact component={Account} />
         <Route path='/RoomDetail' exact component={RoomDetail} />
         <Footer />

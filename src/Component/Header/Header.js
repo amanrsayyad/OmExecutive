@@ -38,9 +38,9 @@ const Header = () => {
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu className='btn_menu'>
                                 <Link to='/Rooms' className="drop_link" onClick={closeMobileMenu}>Rooms</Link>
-                                <Link className="drop_link" onClick={closeMobileMenu}>Restaurant</Link>
-                                <Link className="drop_link" onClick={closeMobileMenu}>Multipurpose Hall</Link>
-                                <Link className="drop_link" onClick={closeMobileMenu}>Lawns</Link>
+                                <Link to='/Resto' className="drop_link" onClick={closeMobileMenu}>Restaurant</Link>
+                                <Link to='/Hall' className="drop_link" onClick={closeMobileMenu}>Multipurpose Hall</Link>
+                                <Link to='/Lawn' className="drop_link" onClick={closeMobileMenu}>Lawns</Link>
                                 </Dropdown.Menu>
                             </Dropdown>
                         </Link>
