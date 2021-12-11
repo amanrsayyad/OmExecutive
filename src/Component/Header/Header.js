@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-
-
+import omlogo from '../../Assets/icons/omlogo.png';
 
 
 const Header = () => {
@@ -19,7 +18,7 @@ const Header = () => {
             <div className='header__left'>
                 {/* <img src={logo2} alt="" className="header_logo"/> */}
                 <Link to='/'>
-                    Om Executive
+                <img src={omlogo} alt="" className="header_logo"/> 
                 </Link>
             </div>
             <div className="header__right">
