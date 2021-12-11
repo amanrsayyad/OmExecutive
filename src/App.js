@@ -28,7 +28,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/Tourism' exact component={Tourism} />
         <Route path='/Gallery' exact component={Gallery} />
-        <Route path='/BookNow' exact component={BookNow} />
+        {/* <Route path='/BookNow' exact component={BookNow} /> */}
         <Route path='/Rooms' exact component={Rooms} />
         <Route path='/Resto' exact component={Resto} />
         <Route path='/Hall' exact component={Hall} />

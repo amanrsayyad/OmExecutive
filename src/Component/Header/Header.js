@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import omlogo from '../../Assets/icons/omlogo.png';
+import omexe from '../../Assets/icons/omexe.png';
 
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
             <div className='header__left'>
                 {/* <img src={logo2} alt="" className="header_logo"/> */}
                 <Link to='/'>
-                <img src={omlogo} alt="" className="header_logo"/> 
+                <img src={omexe} alt="" className="header_logo"/> 
                 </Link>
             </div>
             <div className="header__right">
@@ -30,7 +30,7 @@ const Header = () => {
                         <Link to='/Gallery' onClick={closeMobileMenu}>
                             Gallery
                         </Link>
-                        <Link to='/BookNow'>
+                        <Link>
                             <Dropdown>
                                 <Dropdown.Toggle variant="success" className="btn_toggle btn-warning">
                                     Book Now
