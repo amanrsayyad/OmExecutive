@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/Tourism.css';
+import './Styles/Tourism.css';
 import tour1 from '../Assets/tourimg/tour1.jpg';
 import tour2 from '../Assets/tourimg/tour2.jpg';
 import tour3 from '../Assets/tourimg/tour3.jpg';

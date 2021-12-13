@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/Gallery.css';
+import './Styles/Gallery.css';
 import gallery1 from '../Assets/galleryImg/gallery1.JPG';
 import gallery2 from '../Assets/galleryImg/gallery2.JPG';
 import gallery3 from '../Assets/galleryImg/gallery3.JPG';
